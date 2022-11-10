@@ -18,7 +18,7 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from arch64 import Subscraption
+        from nit_crypt import Subscraption
  
         Subscraption()
  
@@ -26,7 +26,7 @@ if bit == "64bit":
  
 elif bit == "32bit":
  
-        from arch32 import Subscraption
+        from nit_crypt import Subscraption
  
  
         Subscraption()
